@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Quartus/Week2/Assignment1/simulation/qsim
+vexercise1
+Z0 !s110 1697194675
+!i10b 1
+!s100 Zc[b5E?QjmzK2V:XETi:C0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;j4YZ?2o;mk2n1f<VPS[Z1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Quartus/Assignment41/excercise1/simulation/qsim
+Z4 w1697194673
+Z5 8exercise1.vo
+Z6 Fexercise1.vo
+!i122 22
+L0 32 226
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1697194675.000000
+Z9 !s107 exercise1.vo|
+Z10 !s90 -work|work|exercise1.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vexercise1_vlg_vec_tst
+R0
+!i10b 1
+!s100 nEKZ?@Ji:dEKljLZ9VYA30
+R1
+I8O<G8S75S`]S>T=Qb?RKI1
+R2
+R3
+w1697194672
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+!i122 23
+L0 30 48
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R11
+R12
+vhard_block
+R0
+!i10b 1
+!s100 TlDk4bK4U9^kIV1Rb^0<m2
+R1
+IZPf2QQ@5PYTeiHgYTkla;3
+R2
+R3
+R4
+R5
+R6
+!i122 22
+L0 259 45
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12

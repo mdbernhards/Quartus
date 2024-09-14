@@ -1,0 +1,58 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Quartus/Week1/simulation/qsim
+v\hellow-again 
+Z1 !s110 1693998077
+!i10b 1
+!s100 o83KX<cO[EjCI9^ZFEf_72
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IoQHloW>[1iXRXA=FH:8kF1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1693998075
+Z5 8hellow-again.vo
+Z6 Fhellow-again.vo
+!i122 5
+L0 32 139
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1693998077.000000
+!s107 hellow-again.vo|
+Z9 !s90 -work|work|hellow-again.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@134hellow-again@040
+vhard_block
+R1
+!i10b 1
+!s100 nzzY@N^i6HIfeDX_OTKLW2
+R2
+I8ALRC1ICWEX6Aa]i]T0^I3
+R3
+R0
+R4
+R5
+R6
+!i122 5
+L0 172 45
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 hellow-again.vo|
+R9
+!i113 1
+R10
+R11

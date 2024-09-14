@@ -1,0 +1,14 @@
+$comment
+	File created using the following command:
+		vcd file exercise1.msim.vcd -direction
+$end
+$date
+	Tue Oct 10 15:59:28 2023
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+#1000000

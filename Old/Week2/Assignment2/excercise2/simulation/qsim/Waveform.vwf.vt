@@ -1,0 +1,418 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "09/14/2023 14:16:58"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          exercise1
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module exercise1_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg S0;
+reg S1;
+// wires                                               
+wire L0;
+
+// assign statements (if any)                          
+exercise1 i1 (
+// port map - connection between master ports and signals/registers   
+	.L0(L0),
+	.S0(S0),
+	.S1(S1)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// S0
+initial
+begin
+	S0 = 1'b1;
+	S0 = #100000 1'b0;
+	S0 = #200000 1'b1;
+	S0 = #50000 1'b0;
+	S0 = #50000 1'b1;
+	S0 = #50000 1'b0;
+	S0 = #50000 1'b1;
+	S0 = #100000 1'b0;
+	S0 = #50000 1'b1;
+	S0 = #100000 1'b0;
+	S0 = #50000 1'b1;
+	S0 = #100000 1'b0;
+end 
+
+// S1
+initial
+begin
+	S1 = 1'b0;
+	S1 = #3146 1'b1;
+	# 2066;
+	repeat(2)
+	begin
+		S1 = 1'b0;
+		S1 = #4600 1'b1;
+		# 2066;
+	end
+	S1 = 1'b0;
+	S1 = #2538 1'b1;
+	# 2666;
+	repeat(2)
+	begin
+		S1 = 1'b0;
+		S1 = #4000 1'b1;
+		# 2666;
+	end
+	S1 = 1'b0;
+	S1 = #5161 1'b1;
+	# 3466;
+	repeat(2)
+	begin
+		S1 = 1'b0;
+		S1 = #3200 1'b1;
+		# 3466;
+	end
+	S1 = 1'b0;
+	S1 = #961 1'b1;
+	# 3178;
+	repeat(2)
+	begin
+		S1 = 1'b0;
+		S1 = #2734 1'b1;
+		# 3932;
+	end
+	S1 = 1'b0;
+	S1 = #2734 1'b1;
+	S1 = #756 1'b0;
+	S1 = #2049 1'b1;
+	S1 = #1950 1'b0;
+	S1 = #3050 1'b1;
+	S1 = #1950 1'b0;
+	S1 = #1001 1'b1;
+	S1 = #7833 1'b0;
+	S1 = #10600 1'b1;
+	S1 = #1567 1'b0;
+	S1 = #488 1'b1;
+	# 1866;
+	repeat(2)
+	begin
+		S1 = 1'b0;
+		S1 = #1467 1'b1;
+		# 1866;
+	end
+	S1 = 1'b0;
+	S1 = #1499 1'b1;
+	# 1399;
+	repeat(2)
+	begin
+		S1 = 1'b0;
+		S1 = #1934 1'b1;
+		# 1399;
+	end
+	S1 = 1'b0;
+	S1 = #1416 1'b1;
+	S1 = #252 1'b0;
+	S1 = #11400 1'b1;
+	S1 = #9442 1'b0;
+	S1 = #2167 1'b1;
+	S1 = #1166 1'b0;
+	S1 = #2167 1'b1;
+	S1 = #1166 1'b0;
+	S1 = #2167 1'b1;
+	S1 = #73 1'b0;
+	S1 = #5741 1'b1;
+	S1 = #3200 1'b0;
+	S1 = #1059 1'b1;
+	# 531;
+	repeat(2)
+	begin
+		S1 = 1'b0;
+		S1 = #4067 1'b1;
+		# 2599;
+	end
+	S1 = 1'b0;
+	S1 = #4067 1'b1;
+	S1 = #2070 1'b0;
+	S1 = #1004 1'b1;
+	# 1933;
+	repeat(2)
+	begin
+		S1 = 1'b0;
+		S1 = #1400 1'b1;
+		# 1933;
+	end
+	S1 = 1'b0;
+	S1 = #2275 1'b1;
+	# 2333;
+	repeat(2)
+	begin
+		S1 = 1'b0;
+		S1 = #4333 1'b1;
+		# 2333;
+	end
+	S1 = 1'b0;
+	S1 = #2457 1'b1;
+	S1 = #8257 1'b0;
+	S1 = #10800 1'b1;
+	S1 = #943 1'b0;
+	S1 = #1954 1'b1;
+	S1 = #1950 1'b0;
+	S1 = #3050 1'b1;
+	S1 = #1950 1'b0;
+	S1 = #1293 1'b1;
+	# 1366;
+	repeat(2)
+	begin
+		S1 = 1'b0;
+		S1 = #1967 1'b1;
+		# 1366;
+	end
+	S1 = 1'b0;
+	S1 = #1771 1'b1;
+	# 39;
+	repeat(2)
+	begin
+		S1 = 1'b0;
+		S1 = #2934 1'b1;
+		# 3732;
+	end
+	S1 = 1'b0;
+	S1 = #2934 1'b1;
+	S1 = #3695 1'b0;
+	S1 = #508 1'b1;
+	S1 = #5000 1'b0;
+	S1 = #5000 1'b1;
+	S1 = #5000 1'b0;
+	S1 = #4492 1'b1;
+	S1 = #1590 1'b0;
+	S1 = #2050 1'b1;
+	S1 = #2950 1'b0;
+	S1 = #2050 1'b1;
+	S1 = #1360 1'b0;
+	S1 = #654 1'b1;
+	# 3732;
+	repeat(2)
+	begin
+		S1 = 1'b0;
+		S1 = #2934 1'b1;
+		# 3732;
+	end
+	S1 = 1'b0;
+	S1 = #6011 1'b1;
+	S1 = #4800 1'b0;
+	S1 = #5282 1'b1;
+	S1 = #7200 1'b0;
+	S1 = #8989 1'b1;
+	S1 = #1561 1'b0;
+	S1 = #12600 1'b1;
+	S1 = #5839 1'b0;
+	S1 = #1274 1'b1;
+	# 1533;
+	repeat(2)
+	begin
+		S1 = 1'b0;
+		S1 = #1800 1'b1;
+		# 1533;
+	end
+	S1 = 1'b0;
+	S1 = #1174 1'b1;
+	S1 = #3200 1'b0;
+	S1 = #6800 1'b1;
+	S1 = #3200 1'b0;
+	S1 = #6153 1'b1;
+	S1 = #3498 1'b0;
+	S1 = #6000 1'b1;
+	S1 = #4000 1'b0;
+	S1 = #6000 1'b1;
+	S1 = #502 1'b0;
+	S1 = #3757 1'b1;
+	S1 = #3600 1'b0;
+	S1 = #6400 1'b1;
+	S1 = #3600 1'b0;
+	S1 = #4058 1'b1;
+	# 1566;
+	repeat(2)
+	begin
+		S1 = 1'b0;
+		S1 = #1767 1'b1;
+		# 1566;
+	end
+	S1 = 1'b0;
+	S1 = #353 1'b1;
+	S1 = #3245 1'b0;
+	S1 = #4700 1'b1;
+	S1 = #5300 1'b0;
+	S1 = #4700 1'b1;
+	S1 = #3725 1'b0;
+	S1 = #7000 1'b1;
+	S1 = #3000 1'b0;
+	S1 = #7000 1'b1;
+	S1 = #2754 1'b0;
+	S1 = #7000 1'b1;
+	S1 = #3000 1'b0;
+	S1 = #7000 1'b1;
+	S1 = #1576 1'b0;
+	S1 = #7305 1'b1;
+	S1 = #11200 1'b0;
+	S1 = #1495 1'b1;
+	# 832;
+	repeat(2)
+	begin
+		S1 = 1'b0;
+		S1 = #4333 1'b1;
+		# 2333;
+	end
+	S1 = 1'b0;
+	S1 = #4333 1'b1;
+	S1 = #3414 1'b0;
+	S1 = #3867 1'b1;
+	S1 = #2799 1'b0;
+	S1 = #3867 1'b1;
+	S1 = #2799 1'b0;
+	S1 = #3867 1'b1;
+	S1 = #3625 1'b0;
+	S1 = #5100 1'b1;
+	S1 = #4900 1'b0;
+	S1 = #5100 1'b1;
+	S1 = #2165 1'b0;
+	S1 = #5960 1'b1;
+	S1 = #3300 1'b0;
+	S1 = #6700 1'b1;
+	S1 = #3300 1'b0;
+	S1 = #9954 1'b1;
+	S1 = #7200 1'b0;
+	S1 = #3586 1'b1;
+	S1 = #2148 1'b0;
+	S1 = #4300 1'b1;
+	S1 = #5700 1'b0;
+	S1 = #4300 1'b1;
+	S1 = #4214 1'b0;
+	S1 = #12800 1'b1;
+	S1 = #7296 1'b0;
+	S1 = #3800 1'b1;
+	S1 = #2866 1'b0;
+	S1 = #3800 1'b1;
+	S1 = #2866 1'b0;
+	S1 = #3800 1'b1;
+	S1 = #2110 1'b0;
+	S1 = #4567 1'b1;
+	S1 = #3100 1'b0;
+	S1 = #2333 1'b1;
+	S1 = #1727 1'b0;
+	S1 = #4500 1'b1;
+	S1 = #3773 1'b0;
+	S1 = #1559 1'b1;
+	S1 = #3900 1'b0;
+	S1 = #6100 1'b1;
+	S1 = #3900 1'b0;
+	S1 = #7560 1'b1;
+	# 2733;
+	repeat(2)
+	begin
+		S1 = 1'b0;
+		S1 = #3933 1'b1;
+		# 2733;
+	end
+	S1 = 1'b0;
+	S1 = #5940 1'b1;
+	S1 = #3900 1'b0;
+	S1 = #6100 1'b1;
+	S1 = #3900 1'b0;
+	S1 = #1076 1'b1;
+	S1 = #2500 1'b0;
+	S1 = #6600 1'b1;
+	S1 = #2407 1'b0;
+	S1 = #4000 1'b1;
+	S1 = #4493 1'b0;
+	S1 = #4982 1'b1;
+	S1 = #4200 1'b0;
+	S1 = #5800 1'b1;
+	S1 = #4200 1'b0;
+	S1 = #2554 1'b1;
+	S1 = #2150 1'b0;
+	S1 = #2850 1'b1;
+	S1 = #2150 1'b0;
+	S1 = #1114 1'b1;
+	# 3717;
+	repeat(2)
+	begin
+		S1 = 1'b0;
+		S1 = #2934 1'b1;
+		# 3732;
+	end
+	S1 = 1'b0;
+	S1 = #2934 1'b1;
+	S1 = #1147 1'b0;
+	S1 = #1334 1'b1;
+	S1 = #1999 1'b0;
+	S1 = #1334 1'b1;
+	S1 = #1999 1'b0;
+	S1 = #1334 1'b1;
+	S1 = #2296 1'b0;
+	S1 = #1500 1'b1;
+	S1 = #1833 1'b0;
+	S1 = #1500 1'b1;
+	S1 = #1833 1'b0;
+	S1 = #1500 1'b1;
+	S1 = #1005 1'b0;
+	S1 = #1900 1'b1;
+	S1 = #1433 1'b0;
+	S1 = #1900 1'b1;
+	S1 = #1433 1'b0;
+	S1 = #1900 1'b1;
+	S1 = #837 1'b0;
+	S1 = #533 1'b1;
+	S1 = #7000 1'b0;
+	S1 = #15195 1'b1;
+	S1 = #4600 1'b0;
+	S1 = #5400 1'b1;
+	S1 = #4600 1'b0;
+	S1 = #3547 1'b1;
+	S1 = #4000 1'b0;
+	S1 = #7651 1'b1;
+	S1 = #2100 1'b0;
+	S1 = #2900 1'b1;
+	S1 = #2100 1'b0;
+	S1 = #3167 1'b1;
+	S1 = #4500 1'b0;
+	S1 = #4650 1'b1;
+	# 1199;
+	repeat(2)
+	begin
+		S1 = 1'b0;
+		S1 = #2134 1'b1;
+		# 1199;
+	end
+	S1 = 1'b0;
+	S1 = #801 1'b1;
+	S1 = #3300 1'b0;
+	S1 = #6700 1'b1;
+	S1 = #3300 1'b0;
+	S1 = #6091 1'b1;
+	S1 = #750 1'b0;
+	S1 = #13400 1'b1;
+end 
+endmodule
+

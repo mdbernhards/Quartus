@@ -1,0 +1,18 @@
+Fitter Status : Successful - Tue Oct 31 16:24:50 2023
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : exercise1
+Top-level Entity Name : exercise1
+Family : MAX 10
+Device : 10M08SAE144C8GES
+Timing Models : Preliminary
+Total logic elements : 6 / 8,064 ( < 1 % )
+    Total combinational functions : 6 / 8,064 ( < 1 % )
+    Dedicated logic registers : 2 / 8,064 ( < 1 % )
+Total registers : 2
+Total pins : 12 / 101 ( 12 % )
+Total virtual pins : 0
+Total memory bits : 0 / 387,072 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 48 ( 0 % )
+Total PLLs : 0 / 1 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 1 ( 0 % )
